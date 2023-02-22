@@ -30,7 +30,7 @@ public class TmpGoogleFormService {
 
 	Logger log = Logger.getLogger(this.getClass());
 	
-	@Value("classpath:keys/high-nature-345221-f0a4e9871cdf.json")
+	@Value("classpath:keys/credentials.json")
 	private Resource resource;
 
 	@Value("${tmpconf.surveys.sharedEmail}")
